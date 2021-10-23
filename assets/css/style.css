@@ -1264,16 +1264,28 @@ section {
 }
 
 #information-slider .carousel .btn-slide {
-  padding: 0 30px;
+ /*  padding: 0 30px;
   line-height: 42px;
   background: #e82d2d;
   color: #fff;
-  border-radius: 4px;
-  margin-top: 40px;
+  border-radius: 2px; */
+ 
   display: inline-block;
   font-size: 14px;
   margin-right: 10px;
   border: 1px solid #e82d2d;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  background: #e82d2d;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  padding: 10px 28px;
+  margin-top: 40px;
+  transition: 0.5s;
+  border: 2px solid #fff;
+  color: #fff;
 }
 
 #information-slider .carousel .btn-slide.white {
@@ -1393,4 +1405,71 @@ section {
 #information-slider .active .animation.animated-item-4 {
   -webkit-animation: fadeInUp 300ms linear 1200ms both;
   animation: fadeInUp 300ms linear 1200ms both;
+}
+
+#progressbar {
+  margin-bottom: 30px;
+  overflow: hidden;
+  color: lightgrey
+}
+
+#progressbar .active {
+  color: #000000
+}
+
+#progressbar li {
+  list-style-type: none;
+  font-size: 12px;
+  width: 25%;
+  float: left;
+  position: relative
+}
+
+#progressbar #account:before {
+  font-family: FontAwesome;
+  content: "\f023"
+}
+
+#progressbar #personal:before {
+  font-family: FontAwesome;
+  content: "\f007"
+}
+
+#progressbar #payment:before {
+  font-family: FontAwesome;
+  content: "\f09d"
+}
+
+#progressbar #confirm:before {
+  font-family: FontAwesome;
+  content: "\f00c"
+}
+
+#progressbar li:before {
+  width: 50px;
+  height: 50px;
+  line-height: 45px;
+  display: block;
+  font-size: 18px;
+  color: #ffffff;
+  background: lightgray;
+  border-radius: 50%;
+  margin: 0 auto 10px auto;
+  padding: 2px
+}
+
+#progressbar li:after {
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: lightgray;
+  position: absolute;
+  left: 0;
+  top: 25px;
+  z-index: -1
+}
+
+#progressbar li.active:before,
+#progressbar li.active:after {
+  background: skyblue
 }
