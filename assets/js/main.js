@@ -6,6 +6,10 @@
 */
 (function() {
   "use strict";
+  
+  fetch('http://127.0.0.1:8000/direcciones/1')
+  .then(response => response.json())
+  .then(data => console.log(data));
 
   /**
    * Easy selector helper function
@@ -212,7 +216,7 @@
   /**
    * Portfolio details slider
    */
-  new Swiper('.portfolio-details-slider', {
+  new Swiper('.swiper', {
     speed: 400,
     loop: true,
     autoplay: {
@@ -225,6 +229,9 @@
       clickable: true
     }
   });
+  
+   
+   
 
   /**
    * Animation on scroll
