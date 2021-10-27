@@ -775,14 +775,14 @@ section {
   margin-top: 20px;
   position: relative;
 }
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+.swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
   opacity: 1;
   border: 1px solid #cc1616;
 }
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+.swiper-pagination .swiper-pagination-bullet-active {
   background-color: #cc1616;
 }
 .portfolio-details .portfolio-info {
@@ -1239,31 +1239,31 @@ section {
 }
 
 
-#information-slider {
-  background: linear-gradient(rgba(2, 2, 2, 0.8), rgba(0, 0, 0, 0.6)), url("../img/main/tresnport-sldie.jpg") fixed center center;
+#swiper-slide {
+  background: linear-gradient(#cc1616, rgba(248, 6, 6, 0.6)), url("../img/main/tresnport-sldie.jpg") fixed center center;
   position: relative;
 }
 
 
-#information-slider .carousel .carousel-content {
+#swiper-slide .carousel .carousel-content {
   font-size: 18px;
   font-weight: 400;
   color: #fff;
   line-height: 28px;
 }
 
-#information-slider .carousel .slide-margin {
+#swiper-slide .carousel .slide-margin {
   margin-top: 140px;
 }
 
-#information-slider .carousel h1 {
+#swiper-slide .carousel h1 {
   font-size: 64px;
   font-weight: 700;
   margin: 0 0 20px;
   color: #fff;
 }
 
-#information-slider .carousel .btn-slide {
+.btn-slide {
  /*  padding: 0 30px;
   line-height: 42px;
   background: #e82d2d;
@@ -1273,10 +1273,10 @@ section {
   display: inline-block;
   font-size: 14px;
   margin-right: 10px;
-  border: 1px solid #e82d2d;
+  border: 1px solid #cc1616;
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
-  background: #e82d2d;
+  background: #cc1616;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.5px;
@@ -1288,18 +1288,18 @@ section {
   color: #fff;
 }
 
-#information-slider .carousel .btn-slide.white {
+#swiper-slide .carousel .btn-slide.white {
   border: 1px solid rgba(255, 255, 255, 0.44);
   background: rgba(255, 255, 255, 0.26);
   color: #fff;
 }
 
-#information-slider .carousel .slider-img {
+#swiper-slide .carousel .slider-img {
   text-align: right;
   position: absolute;
 }
 
-#information-slider .carousel .item {
+#swiper-slide .carousel .item {
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1324,20 +1324,20 @@ section {
   justify-content: center;
 }
 
-#information-slider .carousel .item:first-child {
+#swiper-slide .carousel .item:first-child {
   top: auto;
   position: relative;
 }
 
-#information-slider .carousel .item.active {
+#swiper-slide .carousel .item.active {
   opacity: 1;
   -webkit-transition: opacity ease-in-out 500ms;
   transition: opacity ease-in-out 500ms;
   z-index: 1;
 }
 
-#information-slider .prev,
-#information-slider .next {
+.swiper-button-prev,
+.swiper-button-next {
   position: absolute;
   top: 50%;
   background-color: #cc1616;
@@ -1353,27 +1353,27 @@ section {
   z-index: 5;
 }
 
-#information-slider .prev:hover,
-#information-slider .next:hover {
+#swiper-slide .prev:hover,
+#swiper-slide .next:hover {
   background-color: #000;
 }
 
-#information-slider .prev {
+#swiper-slide .prev {
   left: 10px;
 }
 
-#information-slider .next {
+#swiper-slide .next {
   right: 10px;
 }
 
-#information-slider .carousel-indicators {
+#swiper-slide .carousel-indicators {
   margin: 0;
   left: 0;
   width: 100%;
   bottom: 80px;
 }
 
-#information-slider .carousel-indicators li {
+#swiper-slide .carousel-indicators li {
   width: 10px;
   height: 10px;
   background-color: transparent;
@@ -1382,27 +1382,27 @@ section {
   border: 1px solid #fff;
 }
 
-#information-slider .carousel-indicators li.active {
+#swiper-slide .carousel-indicators li.active {
   background-color: #cc1616;
   border: 1px solid #cc1616
 }
 
-#information-slider .active .animation.animated-item-1 {
+#swiper-slide .active .animation.animated-item-1 {
   -webkit-animation: fadeInUp 300ms linear 300ms both;
   animation: fadeInUp 300ms linear 300ms both;
 }
 
-#information-slider .active .animation.animated-item-2 {
+#swiper-slide .active .animation.animated-item-2 {
   -webkit-animation: fadeInUp 300ms linear 600ms both;
   animation: fadeInUp 300ms linear 600ms both;
 }
 
-#information-slider .active .animation.animated-item-3 {
+#swiper-slide .active .animation.animated-item-3 {
   -webkit-animation: fadeInUp 300ms linear 900ms both;
   animation: fadeInUp 300ms linear 900ms both;
 }
 
-#information-slider .active .animation.animated-item-4 {
+#swiper-slide .active .animation.animated-item-4 {
   -webkit-animation: fadeInUp 300ms linear 1200ms both;
   animation: fadeInUp 300ms linear 1200ms both;
 }
