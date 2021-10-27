@@ -19,7 +19,7 @@ a {
 }
 
 a:hover {
-  color: #e82d2d;
+  color: #f7f7f7;
   text-decoration: none;
 }
 
@@ -1273,7 +1273,7 @@ section {
   display: inline-block;
   font-size: 14px;
   margin-right: 10px;
-  border: 1px solid #cc1616;
+  border: 1px solid #4d4d4d;
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   background: #cc1616;
@@ -1286,6 +1286,7 @@ section {
   transition: 0.5s;
   border: 2px solid #fff;
   color: #fff;
+
 }
 
 #swiper-slide .carousel .btn-slide.white {
